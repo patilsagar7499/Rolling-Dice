@@ -36,20 +36,12 @@ name=input("Please enter your name:")
 slot=input("Please choose your slot:")
 money=int(input("Please set the amount of money you want to bet on your respective slot:₹"))  
 
-x=0
-
 root =Tk()
 root.title('Roll the dice')
 root.geometry("500x500")
 
 def roll_dice():
- 
-    x=x+1
-    if x!=1:
-        root =Tk()
-        root.title('Roll the dice')
-        root.geometry("500x500")
-     
+    
     d1 =random.choice(my_dice)
     d2 = random.choice(my_dice)
 
